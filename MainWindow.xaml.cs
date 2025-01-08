@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using plc_demo.Windows.Lesson3;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,17 @@ namespace plc_demo
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        /// <summary>
+        /// 点击跳转到SQLiteWindow
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void showSqliteWindow(object sender, MouseButtonEventArgs e)
+        {
+            SqliteWindow sqliteWindow = new SqliteWindow();
+            sqliteWindow.Show();
         }
     }
 }

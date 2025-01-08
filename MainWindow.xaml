@@ -34,5 +34,13 @@
                 <TextBlock FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0">设置一个简单的登录页面，员工登录后才能看到主页面。</TextBlock>
             </StackPanel>
         </DockPanel>
+
+        <DockPanel Grid.Row="0" Grid.Column="2" Margin="8">
+            <Image DockPanel.Dock="Left" VerticalAlignment="Top" Source="/Resources/lesson3.png" Width="60" Height="60" Stretch="Fill" Margin="10, 0" MouseDown="showSqliteWindow"></Image>
+            <StackPanel>
+                <TextBlock FontSize="15" FontWeight="Bold" MouseDown="showSqliteWindow">SQLite本地数据库</TextBlock>
+                <TextBlock FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0" MouseDown="showSqliteWindow">学习本地的轻量数据库SQLite，CRUD等相关操作。</TextBlock>
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </Window>

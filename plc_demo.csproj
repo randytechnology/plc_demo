@@ -11,20 +11,32 @@
   <ItemGroup>
     <None Remove="Resources\lesson1.png" />
     <None Remove="Resources\lesson2.png" />
+    <None Remove="Resources\lesson3.png" />
     <None Remove="Resources\logo.png" />
+    <None Remove="Resources\sqlite\add.png" />
+    <None Remove="Resources\sqlite\init.png" />
+    <None Remove="Resources\sqlite\refresh.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\lesson1.png" />
     <Resource Include="Resources\lesson2.png" />
+    <Resource Include="Resources\lesson3.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\sqlite\add.png" />
+    <Resource Include="Resources\sqlite\init.png" />
+    <Resource Include="Resources\sqlite\refresh.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
   </ItemGroup>
 
 </Project>
