@@ -1,15 +1,8 @@
 ﻿using plc_demo.Windows.Lesson3;
 using plc_demo.Windows.Lesson4;
-using System.Text;
+using plc_demo.Windows.Lesson5;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace plc_demo
 {
@@ -43,6 +36,17 @@ namespace plc_demo
         {
             Sqlite2Window sqlite2Window = new Sqlite2Window();
             sqlite2Window.Show();
+        }
+
+        /// <summary>
+        /// 点击跳转到ConfigWindow
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void showConfigWindow(object sender, MouseButtonEventArgs e)
+        {
+            ConfigWindow configWindow = new ConfigWindow();
+            configWindow.Show();
         }
     }
 }

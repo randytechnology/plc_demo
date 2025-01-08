@@ -12,6 +12,7 @@
     <None Remove="Resources\lesson1.png" />
     <None Remove="Resources\lesson2.png" />
     <None Remove="Resources\lesson3.png" />
+    <None Remove="Resources\lesson5.png" />
     <None Remove="Resources\logo.png" />
     <None Remove="Resources\sqlite\add.png" />
     <None Remove="Resources\sqlite\init.png" />
@@ -23,6 +24,7 @@
     <Resource Include="Resources\lesson1.png" />
     <Resource Include="Resources\lesson2.png" />
     <Resource Include="Resources\lesson3.png" />
+    <Resource Include="Resources\lesson5.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,6 +41,21 @@
 
   <ItemGroup>
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="AppCustom.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
