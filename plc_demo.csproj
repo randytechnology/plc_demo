@@ -10,15 +10,21 @@
 
   <ItemGroup>
     <None Remove="Resources\lesson1.png" />
+    <None Remove="Resources\lesson2.png" />
     <None Remove="Resources\logo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\lesson1.png" />
+    <Resource Include="Resources\lesson2.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

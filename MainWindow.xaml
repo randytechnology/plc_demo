@@ -18,11 +18,20 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        
         <DockPanel Grid.Row="0" Grid.Column="0" Margin="8">
             <Image DockPanel.Dock="Left" VerticalAlignment="Top" Source="/Resources/lesson1.png" Width="60" Height="60" Stretch="Fill" Margin="10, 0"></Image>
             <StackPanel>
                 <TextBlock FontSize="15" FontWeight="Bold">WPF基础知识</TextBlock>
                 <TextBlock FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0">第一课将学习如何建立一个WPF项目以及简单的布局，此项目主要是Grid、Image、TextBlock等。</TextBlock>
+            </StackPanel>
+        </DockPanel>
+
+        <DockPanel Grid.Row="0" Grid.Column="1" Margin="8">
+            <Image DockPanel.Dock="Left" VerticalAlignment="Top" Source="/Resources/lesson2.png" Width="60" Height="60" Stretch="Fill" Margin="10, 0"></Image>
+            <StackPanel>
+                <TextBlock FontSize="15" FontWeight="Bold">简单登录页面</TextBlock>
+                <TextBlock FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0">设置一个简单的登录页面，员工登录后才能看到主页面。</TextBlock>
             </StackPanel>
         </DockPanel>
     </Grid>
