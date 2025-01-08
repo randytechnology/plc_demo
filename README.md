@@ -24,6 +24,10 @@
 
 后期完善：异步执行、Loading框、使用事务、SqliteHelper避免重复代码
 
+## Lesson4 - SQlite数据库高级演示
+
+完善Lesson3的代码，使用异步、Loading、事务、SqliteHelper相关
+
 ## 待定 - 串口读取和写入操作
 
 演示基础的串口连接和读取写入操作
@@ -32,6 +36,3 @@
 
 演示读写相关配置文件
 
-## 待定 - SQlite数据库高级演示
-
-完善Lesson3的代码，使用异步、Loading、事务、SqliteHelper相关

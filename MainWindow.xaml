@@ -42,5 +42,13 @@
                 <TextBlock FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0" MouseDown="showSqliteWindow">学习本地的轻量数据库SQLite，CRUD等相关操作。</TextBlock>
             </StackPanel>
         </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="0" Margin="8">
+            <Image DockPanel.Dock="Left" VerticalAlignment="Top" Source="/Resources/lesson3.png" Width="60" Height="60" Stretch="Fill" Margin="10, 0" MouseDown="showSqlite2Window"></Image>
+            <StackPanel>
+                <TextBlock FontSize="15" FontWeight="Bold" MouseDown="showSqliteWindow">SQLite本地数据库优化</TextBlock>
+                <TextBlock FontSize="13" TextWrapping="Wrap" Margin="0,3,0,0" MouseDown="showSqliteWindow">优化课程3，使用事务、loading、sqlitehelper、异步等。</TextBlock>
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </Window>

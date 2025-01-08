@@ -1,4 +1,5 @@
 ﻿using plc_demo.Windows.Lesson3;
+using plc_demo.Windows.Lesson4;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -31,6 +32,17 @@ namespace plc_demo
         {
             SqliteWindow sqliteWindow = new SqliteWindow();
             sqliteWindow.Show();
+        }
+
+        /// <summary>
+        /// 点击跳转到SQLite2Window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void showSqlite2Window(object sender, MouseButtonEventArgs e)
+        {
+            Sqlite2Window sqlite2Window = new Sqlite2Window();
+            sqlite2Window.Show();
         }
     }
 }

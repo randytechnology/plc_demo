@@ -15,6 +15,7 @@
     <None Remove="Resources\logo.png" />
     <None Remove="Resources\sqlite\add.png" />
     <None Remove="Resources\sqlite\init.png" />
+    <None Remove="Resources\sqlite\loading.png" />
     <None Remove="Resources\sqlite\refresh.png" />
   </ItemGroup>
 
@@ -28,6 +29,7 @@
     <Resource Include="Resources\logo.png" />
     <Resource Include="Resources\sqlite\add.png" />
     <Resource Include="Resources\sqlite\init.png" />
+    <Resource Include="Resources\sqlite\loading.png" />
     <Resource Include="Resources\sqlite\refresh.png" />
   </ItemGroup>
 
