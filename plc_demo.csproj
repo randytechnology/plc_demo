@@ -13,6 +13,7 @@
     <None Remove="Resources\lesson2.png" />
     <None Remove="Resources\lesson3.png" />
     <None Remove="Resources\lesson5.png" />
+    <None Remove="Resources\lesson6.png" />
     <None Remove="Resources\logo.png" />
     <None Remove="Resources\sqlite\add.png" />
     <None Remove="Resources\sqlite\init.png" />
@@ -25,6 +26,7 @@
     <Resource Include="Resources\lesson2.png" />
     <Resource Include="Resources\lesson3.png" />
     <Resource Include="Resources\lesson5.png" />
+    <Resource Include="Resources\lesson6.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,6 +43,7 @@
 
   <ItemGroup>
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+    <PackageReference Include="System.IO.Ports" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
